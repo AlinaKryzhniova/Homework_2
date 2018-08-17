@@ -1,0 +1,16 @@
+
+.f-footer__col {
+   float:left;   
+    margin-top: 80px; 
+    }
+
+.f-footer-copyright { 
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb( 255, 255, 255 );
+    }
+.f-sotial-bar {
+    margin-top: 60px;
+    float:right;
+    }
+ 

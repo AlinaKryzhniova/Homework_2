@@ -1,0 +1,31 @@
+@import url(head-style.css);
+@import url(footer-style.css);
+@import url(fonts.css);
+@import url(hexagon-style.css);
+
+.f-page {
+    width:100%;
+    margin:0;
+    }
+.f-page__head {
+    background:url("../img/foliac/computer.png");
+    height:649px;
+    width:100%
+    }
+
+.f-head {
+    width: 1140px;
+    margin: 0 auto;
+    height: 115px;
+    }
+.f-page__footer {
+    background-color: #3c4955;
+    height:200px;
+    width:100%;
+    }
+.f-footerr {
+   width: 1140px;
+    margin: 0 auto;
+    
+}
+

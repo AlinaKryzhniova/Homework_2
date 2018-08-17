@@ -1,0 +1,63 @@
+
+.f-head__logo {
+    float:left;   
+    margin-top: 33px;
+    }
+.f-menu {
+    margin-top: 80px;
+    float:right;
+    }
+
+.f-link_menu {
+    display: inline-block;
+    padding-left: 105px;
+    text-decoration: none;
+    color: #ffffff;
+    font: 16px Lato, sans-serif;
+    font-weight: bold;
+    }
+.content_clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.f-titles {
+    width: 1140px;
+    margin: 0 auto;
+    }
+
+.main-title, .second-title {
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.main-title {
+    font: 46px big john;
+    margin-top: 95px;
+    }
+.second-title {
+    margin-top: 25px;
+    font: 30px slim joe;
+    }
+
+.btn {
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    color: #48bf72;
+    display: block;
+    width: 134px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: 45px;
+    }
+.btn:hover {
+	background-color: #48bf72;
+	color: white;
+    }
+

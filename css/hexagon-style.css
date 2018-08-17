@@ -1,0 +1,100 @@
+.hexagon {
+    position: relative;
+    width: 50px; 
+    height: 28.87px;
+    background-color: #55acee;
+    margin: 14.43px 40px;
+    display: inline-block;
+    }
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    }
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 14.43px solid #55acee;
+    }
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #55acee;
+    }
+
+.linkedin {
+    background-color: #0976b4;
+    }
+
+.linkedin:before {
+    border-bottom: 14.43px solid #0976b4;
+    }
+
+.linkedin:after {
+   border-top: 14.43px solid #0976b4; 
+    }
+
+.dribbble {
+    background-color: #ea4c89;
+    }
+
+.dribbble:before {
+    border-bottom: 14.43px solid #ea4c89;
+    }
+
+.dribbble:after {
+   border-top: 14.43px solid #ea4c89; 
+    }
+
+.behance {
+    background-color: #1769ff;
+    }
+
+.behance:before {
+    border-bottom: 14.43px solid #1769ff;
+    }
+
+.behance:after {
+   border-top: 14.43px solid #1769ff; 
+    }
+
+.img_for_hexaton_twitter:after {
+    content: "";
+    position: absolute;
+    width: 22px; height: 18px;
+    left: 14px;
+    top: 5px;
+    background: #55acee url('../img/foliac/sprites_for_sotial_bar.png') -10px -55px no-repeat;
+    }
+
+.img_for_hexaton_linkedin:after {
+    content: "";
+    position: absolute;
+    width: 22px; height: 20px;
+    left: 14px;
+    top: 5px;
+    background: #0976b4 url('../img/foliac/sprites_for_sotial_bar.png') -55px -10px no-repeat;
+    }
+
+.img_for_hexaton_dribbble:after {
+    content: "";
+    position: absolute;
+    width: 25px; height: 25px;
+    left: 12px;
+    top: 3px;
+    background: #ea4c89 url('../img/foliac/sprites_for_sotial_bar.png') -10px -10px no-repeat;
+    }
+
+.img_for_hexaton_behance:after {
+    content: "";
+    position: absolute;
+    width: 22px; height: 13px;
+    left: 14px;
+    top: 6px;
+    background: #1769ff url('../img/foliac/sprites_for_sotial_bar.png') -52px -55px no-repeat;
+    }
